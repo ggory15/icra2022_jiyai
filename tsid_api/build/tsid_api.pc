@@ -1,0 +1,22 @@
+prefix=/opt/openrobots
+exec_prefix=/opt/openrobots
+libdir=/opt/openrobots/lib
+bindir=/opt/openrobots/bin
+pkglibdir=/opt/openrobots/lib/tsid_api
+includedir=/opt/openrobots/include
+datarootdir=/opt/openrobots/share
+pkgdatarootdir=/opt/openrobots/share
+docdir=/opt/openrobots/share/doc/tsid_api
+doxygendocdir=/opt/openrobots/share/doc/tsid_api/doxygen-html
+
+Name: tsid_api
+Description: Wholebody motion planner for jiyai-traj
+URL: https://github.com/ggory15
+Version: UNKNOWN-dirty
+Requires: eigenpy >= 2.0, pinocchio >= 2.2, multicontact-api >= 2.0, tsid >= 1.2
+Conflicts: 
+Libs: -L${libdir} 
+Libs.private: 
+Cflags:  -I${includedir}
+
+

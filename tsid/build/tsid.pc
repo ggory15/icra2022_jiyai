@@ -1,0 +1,22 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=/opt/openrobots/lib
+bindir=/usr/local/bin
+pkglibdir=/usr/local/lib/tsid
+includedir=/usr/local/include
+datarootdir=/usr/local/share
+pkgdatarootdir=/usr/local/share
+docdir=/usr/local/share/doc/tsid
+doxygendocdir=/usr/local/share/doc/tsid/doxygen-html
+
+Name: tsid
+Description: Efficient Task Space Inverse Dynamics for Multi-body Systems based on Pinocchio
+URL: https://github.com/stack-of-tasks/tsid
+Version: 1.6.0
+Requires: 
+Conflicts: 
+Libs: -L${libdir} 
+Libs.private: 
+Cflags:  -I${includedir}
+
+

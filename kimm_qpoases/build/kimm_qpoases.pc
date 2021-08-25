@@ -1,0 +1,22 @@
+prefix=/opt/openrobots
+exec_prefix=/opt/openrobots
+libdir=/opt/openrobots/lib
+bindir=/opt/openrobots/bin
+pkglibdir=/opt/openrobots/lib/kimm_qpoases
+includedir=/opt/openrobots/include
+datarootdir=/opt/openrobots/share
+pkgdatarootdir=/opt/openrobots/share
+docdir=/opt/openrobots/share/doc/kimm_qpoases
+doxygendocdir=/opt/openrobots/share/doc/kimm_qpoases/doxygen-html
+
+Name: kimm_qpoases
+Description: qpOASES for KIMM
+URL: https://github.com/ggory15/KIMM_qpOASES
+Version: 1.0.0
+Requires: 
+Conflicts: 
+Libs: -L${libdir} 
+Libs.private: 
+Cflags:  -I${includedir}
+
+
