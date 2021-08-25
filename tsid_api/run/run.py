@@ -32,7 +32,7 @@ class CMDShell(cmd.Cmd):
         folder_path = os.getcwd() ## $Home/git/tsid_ggory/unittest something like that.
         self.input_location = folder_path + '/../' + 'data/' 
         self.output_location = folder_path + '/../'+ 'result/'
-        self.input_name = '/test/sanghyun/flat_longswing'        
+        self.input_name = '/test/sanghyun/darpa_2steps'        
         
         self.refined_output_ = []
         nargs = len(sys.argv)
